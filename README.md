@@ -5,5 +5,11 @@ Motivation: Sometimes we are given days off, and often times we try to maximize 
 
 Given an amount of days, in integers, how can we maximize the amount of consecutive days we can take off in a year. 
 
-Input - X : Int
-Output - Y: [np.datetimes]
+Inputs:
+  pto_days (required) : the number of pto days that will be taken off. Program will work without it.
+  start_date: the start date in 'YYYY-MM-DD format', it is optional and will be bypassed by pressing enter. In this case, the current day will be used,
+    and the end date will be a year later.
+  end_date: end date of the program, if a start_date in placed, an end date is required. 
+
+Required modules:
+datetime and numpy.
