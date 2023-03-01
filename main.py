@@ -17,7 +17,7 @@ if start_date != '':
     logic_check = np.datetime64(end_date) <= np.datetime64(start_date)
     while (len(end_date) != 10) or (end_date[4] != '-') or (end_date[7] != '-') or logic_check:
         if logic_check == True:
-            print('\nThe end date should be after the end date')
+            print('\nThe end date should be after the start date')
         if logic_check == False:
             print('\nIncorrect input for the end date\n')
         end_date = input('Please input using YYYY-MM-DD format (include the dashes) and it should be later than start: ')
