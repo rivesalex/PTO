@@ -62,7 +62,7 @@ class pto:
         print('Based on the current days off, and the amount of PTO usable, it is advisable',
                'to take the following days off to maximize your vacation:')
         if len(current_pto_days) == 0:
-            print('Get a job that provides PTO, or accrue something more time')
+            print('Get a job that provides PTO, or accrue some more time')
         
         for date in current_pto_days:
             month = self.month[date.month]

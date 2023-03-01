@@ -1,7 +1,7 @@
 import numpy as np
 import datetime as dt
-import packages.constants as constants
-import packages.pto as pto
+import Modules.constants as constants
+import Modules.pto as pto
 
 
 pto_days = int(input('Please specify the amount of days off you have: '))
